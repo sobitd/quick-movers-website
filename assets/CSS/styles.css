@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', 'Actor','Adamina',sans-serif;
+    color: white;
+}
+
+.sectionOne-wrapper{
+    background-image: url(../moving\ 1.png);
+    height: 650px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+}
+
+/* Navigation */
+
+.navbar{
+    overflow: hidden;
+    margin-left: 34%;
+}
+
+.navbar a{
+    float: left;
+    font-size: 1.2rem;
+    margin:80px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:nth-child(5), .navbar a:nth-child(6){
+    color: black;
+    padding: 0px 15px;
+    background-color: yellow;
+}
+
+.navbar a:nth-child(6){
+    background-color: black;
+    color: yellow;
+}
+
+.navbar a:hover{
+    color:yellow;
+    font-size:1.5rem;
+}
+
+.navbar a:hover:nth-child(5), .navbar a:hover:nth-child(6){
+    color: black;
+    background-color: white;
+}
