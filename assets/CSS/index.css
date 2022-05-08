@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins","Actor","Adamina",sans-serif;
+    color: white;
+    height: 100vh;
+}
+
+        /* Navigation  */
+nav{
+    background-color: #090704;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.navbar{
+    list-style-type: none;
+    display: flex;
+    margin-left:40%;
+}
+
+.item{
+    display: inline-block;
+    text-align: center;
+    padding:20px;
+}
+
+
+.navbar a{
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Adamina";
+}
+
+.modern-house{
+    list-style-type: none;
+    display: flex;
+}
+
+.modern-house li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 700px 0 0;
+}
+
+.modern-house li h3{
+    width: 30vh;
+    padding:10px 0px 0px;
+    font-size: 1.5rem;
+    font-family: "Adamina";
+}
+
+.modern-house li p{
+    font-size: 0.5em;
+    padding-bottom: 10px;
+}
+
+.navbar button{
+    padding: 5px 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid black;
+    background: #ffae3e;
+    font-size: 0.8em;
+}
+
+.unicode{
+    font-size: 2em;
+    color: white;
+}
+
+nav hr{
+    background-color: lightgrey;
+    height: 1px;
+    border: none;
+    opacity: 0.5;
+}
+
+/* Listing Section */
+
+.listing-wrapper{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 300px 300px 300px;
+    background-color: #f5f5f5;
+    color: black;
+}
+
+.one{
+    grid-column: 1 / span 2;
+}
+
+
+
