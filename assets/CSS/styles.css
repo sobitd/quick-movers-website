@@ -90,10 +90,6 @@ img{
     display: inline-block;
 }
 
-.sectionTwo-text hr{
-    margin: 20px 0px;
-}
-
 .sectionTwo-text{
     width: 40%;
     height: 350px;
@@ -141,6 +137,16 @@ img{
     height: 1000px;
     background: lightgray;
 }
+
+.grid-hr{
+    width: 20%;
+    margin: 80px;
+    /* Set the thickness of the horizontal line */
+    height: 4px;
+    background: linear-gradient(135deg,hsl(35, 100%, 63%),#040300);
+    border-radius: 3px;
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -150,10 +156,15 @@ img{
     align-items: center;
     justify-content: center;
     padding: 200px;
-    margin: 40px 100px;
+    margin: 0px 40px 100px;
 }
 
-
+.grid-hr{
+    margin: 20px 20px;
+    font-size: 2em;
+    font-family: "Poppin";
+    color: #040300;
+}
 .grid-container img{
     height: 200px;
     width: 300px;
@@ -197,5 +208,33 @@ img{
 /* Footer */
 footer{
     background: black;
-    height: 80vh;
+    height: 60vh;
+}
+
+footer p:nth-child(1){
+    font-size: 2em;
+    font-family: 'Poppin';
+    padding: 100px;
+    padding-bottom: 50px;
+}
+
+.a-button{
+    color: #bf792c;
+}
+
+footer hr{
+    border: 1px solid lightgrey;
+    width: 80%;
+    margin: 0 100px;
+}
+
+
+.column-links li{
+    display: inline-block;
+    padding: 15px;
+    margin: 30px;
+    vertical-align: middle;
+}
+footer div{
+    display: float;
 }
